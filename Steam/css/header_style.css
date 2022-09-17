@@ -1,0 +1,97 @@
+header{
+    font-weight: normal;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 14px;
+    background-color: var(--background-clr);
+    min-width: 960px;
+    overflow:hidden;
+    height: 100px;
+}
+.container{
+    white-space:nowrap;
+    margin: 0px auto;
+}
+.container div{
+    display:inline-block;
+}
+.header__logo{
+    opacity: 0.8;
+    float: left;
+    padding-top: 30px;
+    padding-left: 300px;
+    margin-right: 30px;
+    width: 176px;
+    height: 44px;
+}
+.header__logo:hover{
+    cursor: pointer;
+}
+.header__nav{
+    position: absolute;
+    padding-left: 200px;
+    padding-top: 45px;
+    display:flex;
+}
+.header__nav a{
+    padding: 0 5.5px;
+}
+.nav-link {
+    opacity: 0.7;
+    text-decoration: none;
+    color: white;
+}
+.nav-link:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.header__btn-download{
+    background-color: #5c7e10;
+    height: 25px;
+    width: 140px;
+    text-align:center;
+    margin-right: 5px;
+    margin-top: 2px;
+    display:flex;
+    flex-direction:column;
+}
+.header__btn-download:hover{
+    cursor: pointer;
+}
+.more-download{
+    color: rgb(228, 227, 227);
+    text-decoration: none;
+    display:inline-block;
+    padding: 2px;
+}
+.header__more{
+    position: absolute;
+    right: 368px;
+    top: 6px;
+    height: 21px;
+    line-height: 21px;
+    color: #b8b6b4;
+    font-size: 11px;
+}
+.more-langlogin a{
+    padding: 0 6px;
+    color: white;
+    opacity: 0.7;
+    text-decoration: none;
+}
+.more-login:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+.more-lang:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+.more-lang-img{
+    position: fixed;
+    margin-left: -5px;
+    margin-top:5px;
+}
+.more-lang-img:hover{
+    cursor: pointer;
+}

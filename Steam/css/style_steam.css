@@ -1,0 +1,22 @@
+:root{
+    --background-clr: #171a21;
+    --backround-second: #32353c;
+    --href-color: #1999ff;
+    --main-font: #C6D4DF;
+    --second-font: #8F98A0;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Motiva sans", sans-serif;
+}
+body{
+    position: relative;
+}
+main{
+    width: 100%;
+    background: radial-gradient(rgba(24, 26, 33, 0) 0%, #181A21 100%) fixed no-repeat, url(https://store.cloudflare.steamstatic.com/public/shared/images/joinsteam/new_login_bg_strong_mask.jpg) center top no-repeat, #181A21;
+    background-color: #171a21;
+    display: block;
+}
